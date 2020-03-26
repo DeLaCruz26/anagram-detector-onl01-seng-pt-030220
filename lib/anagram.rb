@@ -8,7 +8,7 @@ attr_accessor :anagrams
 
   def match(anagrams)
     anagrams.detect do |word|
-      if word != word
+      if word == !word
         
       else word == word.split(" ")
         word
