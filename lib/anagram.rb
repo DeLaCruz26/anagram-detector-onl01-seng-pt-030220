@@ -10,7 +10,7 @@ attr_accessor :anagrams
     anagrams.select do |word|
       if word != word
         []
-      else word == word
+      else word == word.split(" ")
         word
       end
     end
