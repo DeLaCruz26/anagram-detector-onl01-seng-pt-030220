@@ -7,8 +7,9 @@ attr_accessor :anagrams
   end
 
   def match(anagrams)
-    anagrams.detect do |word|
-    
+    if !anagrams.empty?
+      []
+    else 
     end
   end
 
