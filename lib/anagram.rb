@@ -7,8 +7,8 @@ attr_accessor :anagrams
   end
 
   def match(anagrams)
-    anagrams.select do |word|
-      if word != word
+    anagrams.detect do |word|
+      if word != " "
         []
       else word == word.split(" ")
         word
