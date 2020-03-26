@@ -9,7 +9,7 @@ attr_accessor :anagrams
   def match(anagrams)
     anagrams.detect do |word|
       if word == !word
-        
+        wrd
       else word == word.split(" ")
         word
       end
