@@ -9,7 +9,7 @@ attr_accessor :anagrams
   def match(anagrams)
     anagrams.select do |word|
       if word != word
-        word
+        []
       else word == word
         word
       end
