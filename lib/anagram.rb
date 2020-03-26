@@ -7,11 +7,7 @@ attr_accessor :anagrams
   end
 
   def match(anagrams)
-    anagrams.detect do |word|
-      if word.uniq!
-        []
-      end
-    end
+    anagrams.select { |word| word.split("")
   end
 
 
