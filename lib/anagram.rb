@@ -7,7 +7,7 @@ attr_accessor :anagrams
   end
 
   def match(anagrams)
-    anagrams.select { |word| word.split("")
+    anagrams.select { |word| word.split("").sort == @anagrams.split("") .sort }
   end
 
 
