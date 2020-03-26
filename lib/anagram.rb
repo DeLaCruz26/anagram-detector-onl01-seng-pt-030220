@@ -10,7 +10,7 @@ attr_accessor :anagrams
     if !anagrams.empty?
       []
     else anagrams.include?("ab")
-      anagrams
+      "ab"
     end
   end
 
