@@ -9,7 +9,7 @@ attr_accessor :anagrams
   def match(anagrams)
     if !anagrams.empty?
       []
-    else anagrams.include? 
+    else anagrams.include?("ab")
     end
   end
 
