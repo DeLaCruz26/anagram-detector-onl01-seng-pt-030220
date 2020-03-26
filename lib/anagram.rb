@@ -8,8 +8,8 @@ attr_accessor :anagrams
 
   def match(anagrams)
     anagrams.detect do |word|
-      if anagrams.uniq!
-        []
+      if word.uniq!
+        
       end
     end
   end
