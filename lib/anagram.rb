@@ -10,6 +10,7 @@ attr_accessor :anagrams
     anagrams.detect do |word|
       if anagrams.uniq!
         []
+      end
     end
   end
 
